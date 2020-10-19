@@ -30,7 +30,7 @@
     },
   "encoding": {
     "color": {
-      "field": "Attack Cases",
+      "field": "Total Attacks",
       "type": "quantitative",
       "scale": {"type": "log"}
     },
