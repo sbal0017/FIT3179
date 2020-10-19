@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/sbal0017/vega_lite/main/FIT3179/data/globalterrorismdb.csv"
+          "url": "https://raw.githubusercontent.com/sbal0017/vega_lite/main/FIT3179/data/countofattacks.csv"
         },
         "key": "Country",
         "fields": ["Count of Attacks"]
