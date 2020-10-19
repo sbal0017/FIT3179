@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/data/countofattacks.csv"
+          "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/data/countofattacksfinal.csv"
         },
         "key": "Country",
         "fields": ["CountofAttacks"]
