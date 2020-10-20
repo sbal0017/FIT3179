@@ -32,7 +32,11 @@
     "color": {
       "field": "Total Attacks",
       "type": "quantitative",
-      "scale": {"type": "log"}
+      "scale": {
+      "type": "threshold",
+      "domain": [10, 1000, 1000, 10000],
+      "range": ["#FFF2E6", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+      }
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
