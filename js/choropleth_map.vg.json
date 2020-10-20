@@ -32,7 +32,6 @@
     "color": {
       "field": "Total Attacks",
       "type": "quantitative",
-      "scale": {"type": "log"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
