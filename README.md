@@ -5,8 +5,7 @@ Vega-Lite Links
 <b>1. Choropleth Map - Total Attacks</b>
 
 https://sbal0017.github.io/FIT3179/MapAttacks/
-
-
+</n>
 <b>2. Scatter Plot (Interactive) - Attacks by Population</b>
 
 https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
