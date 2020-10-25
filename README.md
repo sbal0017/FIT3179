@@ -1,6 +1,6 @@
 # FIT3179 Project
 
-Vega-Lite Links
+<h1>Vega-Lite Links</h1>
 
 <b>1. Choropleth Map - Total Attacks</b>
 
