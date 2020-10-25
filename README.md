@@ -7,6 +7,6 @@ Vega-Lite Links
 https://sbal0017.github.io/FIT3179/MapAttacks/
 
 
-2. Scatter Plot (Interactive) - Attacks by Population
+<b>2. Scatter Plot (Interactive) - Attacks by Population</b>
 
 https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
