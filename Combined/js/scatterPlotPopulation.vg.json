@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "Total Terrorist Attacks and Deaths (2000-2015)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/ScatterPlotPopulationAttacks/data/globalpopulation.csv"
+  },
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 100000000,
+        "step": 100000,
+        "name": "Population Above: "
+      }
+    },
+    {
+      "name": "Continent_Select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels":[
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.CountofAttacks > 1"},
+    {"filter": "datum.TotalDeaths > 1"},
+    {"filter": "datum.Population > Population_Above"},
+    {"filter": "Continent_Select == null || datum.Continent == Continent_Select"}
+
+  ],
+  "encoding": {
+    "x": {
+      "field": "CountofAttacks",
+      "type": "quantitative",
+      "title": "Total Attacks",
+      "axis": {"tickCount": 7},
+      "scale": {"type": "log", "domain": [1, 20000]}
+    },
+    "y": {
+      "field": "TotalDeaths",
+      "type": "quantitative",
+      "title": "Total Deaths",
+      "axis": {"tickCount": 6},
+      "scale": {"type": "log", "domain": [1, 100000]}
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+            "range": [10, 50, 100, 200, 300, 500]
+          },
+          "legend": {"format": ".1s"}
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#E69F00",
+              "#CC79A7",
+              "#D55E00",
+              "#999999",
+              "#0072B2",
+              "#009E73"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "CountofAttacks", "type": "quantitative", "format": ","},
+          {"field": "TotalDeaths", "type": "quantitative", "format": ","},
+          {"field": "Continent", "type": "nominal"},
+          {"field": "Population", "type": "quantitative", "format": ","}
+
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Iraq' || datum['Country'] == 'Australia' || datum['Country'] == 'United States'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
+}
