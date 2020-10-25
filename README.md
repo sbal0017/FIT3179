@@ -2,7 +2,7 @@
 
 Vega-Lite Links
 
-1. Choropleth Map - Total Attacks
+<b>1. Choropleth Map - Total Attacks</b>
 
 https://sbal0017.github.io/FIT3179/MapAttacks/
 
