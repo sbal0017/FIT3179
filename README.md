@@ -10,3 +10,8 @@ https://sbal0017.github.io/FIT3179/MapAttacks/
 <b>2. Scatter Plot (Interactive) - Attacks by Population</b>
 
 https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
+
+
+<b>3. Combined - Homework</b>
+
+https://sbal0017.github.io/FIT3179/Combined/
