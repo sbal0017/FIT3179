@@ -15,11 +15,11 @@
         "min": 0,
         "max": 100000000,
         "step": 100000,
-        "name": "Minimum Population: "
+        "name": "Population Above: "
       }
     },
     {
-      "name": "Continent_selection",
+      "name": "Continent_Select",
       "bind": {
         "input": "select",
         "options": [
@@ -40,7 +40,7 @@
           "Asia",
           "Oceania"
         ],
-        "name": "Continent Selection: "
+        "name": "Continent: "
       }
     }
   ],
@@ -48,7 +48,7 @@
     {"filter": "datum.CountofAttacks > 1"},
     {"filter": "datum.TotalDeaths > 1"},
     {"filter": "datum.Population > Population_Above"},
-    {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
+    {"filter": "Continent_Select == null || datum.Continent == Continent_Select"}
 
   ],
   "encoding": {
@@ -83,7 +83,7 @@
           "scale": {
             "type": "threshold",
             "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
-            "range": [10, 50, 150, 200, 300, 400]
+            "range": [10, 50, 100, 200, 300, 500]
           },
           "legend": {"format": ".1s"}
         },
@@ -117,7 +117,8 @@
           {"field": "Country", "type": "nominal"},
           {"field": "CountofAttacks", "type": "quantitative", "format": ","},
           {"field": "TotalDeaths", "type": "quantitative", "format": ","},
-          {"field": "Continent", "type": "nominal"}
+          {"field": "Continent", "type": "nominal"},
+          {"field": "Population", "type": "quantitative", "format": ","}
 
         ]
       }
