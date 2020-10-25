@@ -4,7 +4,7 @@
   "height": 600,
   "title": "Total Terrorist Attacks and Deaths (2000-2015)",
   "data": {
-    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+    "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/ScatterPlotPopulationAttacks/data/globalpopulation.csv"
   },
   "params": [
     {
