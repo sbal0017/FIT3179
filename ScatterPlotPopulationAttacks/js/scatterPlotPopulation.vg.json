@@ -62,6 +62,7 @@
     "y": {
       "field": "TotalDeaths",
       "type": "quantitative",
+      "title": "Total Deaths",
       "axis": {"tickCount": 6},
       "scale": {"type": "log", "domain": [1, 100000]}
     }
