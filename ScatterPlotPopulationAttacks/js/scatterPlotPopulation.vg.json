@@ -56,14 +56,14 @@
       "field": "CountofAttacks",
       "type": "quantitative",
       "title": "Total Attacks",
-      "axis": {"tickCount": 7},
+      "axis": {"tickCount": 1},
       "scale": {"type": "log", "domain": [1, 20000]}
     },
     "y": {
       "field": "TotalDeaths",
       "type": "quantitative",
       "title": "Total Deaths",
-      "axis": {"tickCount": 6},
+      "axis": {"tickCount": 1},
       "scale": {"type": "log", "domain": [1, 100000]}
     }
   },
