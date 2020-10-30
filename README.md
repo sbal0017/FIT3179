@@ -13,6 +13,7 @@ https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
 
 
 <b>3. Line Chart - Deaths by Year</b>
+
 https://sbal0017.github.io/FIT3179/LineChart/
 
 
