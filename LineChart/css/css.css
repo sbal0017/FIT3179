@@ -1,1 +1,8 @@
-
+#lineChart {
+	top:60px;
+	bottom: 60px; 
+	left: 60px;
+	right: 60px;
+	/*height: 1000px;
+	width: 800px;*/
+}
