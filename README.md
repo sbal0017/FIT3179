@@ -12,6 +12,10 @@ https://sbal0017.github.io/FIT3179/MapAttacks/
 https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
 
 
-<b>3. Combined - Homework</b>
+<b>3. Line Chart - Deaths by Year</b>
+https://sbal0017.github.io/FIT3179/LineChart/
+
+
+<b>4. Combined</b>
 
 https://sbal0017.github.io/FIT3179/Combined/
