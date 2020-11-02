@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 1000,
+  "height": 600,
+  "title": "Iraq Attacks",
+
+  "layer": [
+    {
+          "data": {
+        "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/iraq.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "iraq"
+        }
+      },
+      "projection": {
+        "type": "equalEarth"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ededed",
+        "stroke": "white"
+      }
+    },
+    {
+          "data": {
+        "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/singeIraq.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "singeIraq"
+        }
+      },
+      "projection": {
+        "type": "equalEarth"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      }
+    },
+    {
+    "data": {
+      "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/iraqAttacks.csv"
+    },
+    "projection": {
+      "type": "equalEarth"
+    },
+    "selection": {
+        "attack_highlight": {
+          "type": "multi",
+          "fields": ["attacktype1_txt"],
+          "bind": "legend"
+        }
+      },
+    "mark": "circle",
+    "encoding": {
+      "longitude": {
+        "field": "longitude",
+        "type": "quantitative"
+      },
+      "latitude": {
+        "field": "latitude",
+        "type": "quantitative"
+      },
+      "tooltip": [
+        {"field": "city", "title": "City"},
+        {"field": "attacktype1_txt", "title": "Attack Type"}
+      ],
+      "size": {"value": 10},
+      "color": {"field": "attacktype1_txt", "type": "nominal", "title": "Type of Attacks"},
+      "opacity": {
+          "condition": {"selection": "attack_highlight", "value": 1},
+          "value": 0
+        }
+    }
+    
+  }
+  ]
+}
