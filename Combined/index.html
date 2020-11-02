@@ -28,6 +28,9 @@
 <h2>Fourth Visualisation - Word Cloud</h2>
 <div id="wordCloud"></div>
   
+<h2>Fifth Visualisation - Dot Map</h2>
+<div id="dotMap"></div>
+  
 <script type="text/javascript">
   
   var vis1 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/choropleth_map.vg.json";
@@ -53,6 +56,13 @@
   var vis4 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/wordCloud.vg.json";
   
   vegaEmbed('#wordCloud', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+    
+  var vis5 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/dotMap.vg.json";
+  
+  vegaEmbed('#dotMap', vis5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   </script>
