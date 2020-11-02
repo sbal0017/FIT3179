@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 600, "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/TargetTypeYear.csv"},
+  "selection": {
+        "type_highlight": {
+          "type": "multi",
+          "fields": ["TargetType"],
+          "bind": "legend"
+        }
+      },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year", "title":"Year",
+      "axis": {"format": "%Y", "grid": false}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Total Attacks"
+    },
+    "color": {
+      "field": "TargetType", "title": "Target Type",
+      "scale": {"scheme": "category20b"}
+    },
+    "tooltip":[
+      {"field": "TargetType", "title": "Target Type"},
+      {"field": "Total Attacks", "title": "Count of Attacks"}
+    ],
+    "opacity": {
+    "condition": {"selection": "type_highlight", "value": 1},
+    "value": 0.1
+        }
+  }
+}
