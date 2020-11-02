@@ -1,0 +1,273 @@
+﻿TargetType,Year,Total Attacks
+Abortion Related,2000,6
+Abortion Related,2001,2
+Abortion Related,2002,0
+Abortion Related,2003,2
+Abortion Related,2004,1
+Abortion Related,2005,4
+Abortion Related,2006,0
+Abortion Related,2007,2
+Abortion Related,2008,2
+Abortion Related,2009,1
+Abortion Related,2010,0
+Abortion Related,2011,0
+Abortion Related,2012,4
+Abortion Related,2013,2
+Abortion Related,2014,0
+Abortion Related,2015,5
+"Airports, Aircraft and Maritime",2000,21
+"Airports, Aircraft and Maritime",2001,29
+"Airports, Aircraft and Maritime",2002,21
+"Airports, Aircraft and Maritime",2003,10
+"Airports, Aircraft and Maritime",2004,11
+"Airports, Aircraft and Maritime",2005,8
+"Airports, Aircraft and Maritime",2006,8
+"Airports, Aircraft and Maritime",2007,18
+"Airports, Aircraft and Maritime",2008,39
+"Airports, Aircraft and Maritime",2009,32
+"Airports, Aircraft and Maritime",2010,26
+"Airports, Aircraft and Maritime",2011,18
+"Airports, Aircraft and Maritime",2012,23
+"Airports, Aircraft and Maritime",2013,34
+"Airports, Aircraft and Maritime",2014,73
+"Airports, Aircraft and Maritime",2015,41
+Business,2000,206
+Business,2001,197
+Business,2002,154
+Business,2003,147
+Business,2004,126
+Business,2005,159
+Business,2006,247
+Business,2007,240
+Business,2008,501
+Business,2009,541
+Business,2010,530
+Business,2011,513
+Business,2012,567
+Business,2013,902
+Business,2014,1107
+Business,2015,1134
+Educational Institution,2000,20
+Educational Institution,2001,47
+Educational Institution,2002,28
+Educational Institution,2003,25
+Educational Institution,2004,24
+Educational Institution,2005,58
+Educational Institution,2006,87
+Educational Institution,2007,120
+Educational Institution,2008,162
+Educational Institution,2009,217
+Educational Institution,2010,264
+Educational Institution,2011,219
+Educational Institution,2012,324
+Educational Institution,2013,352
+Educational Institution,2014,346
+Educational Institution,2015,293
+Food or Water Supply,2000,2
+Food or Water Supply,2001,3
+Food or Water Supply,2002,1
+Food or Water Supply,2003,3
+Food or Water Supply,2004,0
+Food or Water Supply,2005,5
+Food or Water Supply,2006,9
+Food or Water Supply,2007,1
+Food or Water Supply,2008,16
+Food or Water Supply,2009,7
+Food or Water Supply,2010,11
+Food or Water Supply,2011,10
+Food or Water Supply,2012,18
+Food or Water Supply,2013,6
+Food or Water Supply,2014,21
+Food or Water Supply,2015,17
+Government ,2000,328
+Government ,2001,281
+Government ,2002,204
+Government ,2003,228
+Government ,2004,198
+Government ,2005,370
+Government ,2006,414
+Government ,2007,375
+Government ,2008,814
+Government ,2009,825
+Government ,2010,993
+Government ,2011,915
+Government ,2012,949
+Government ,2013,1411
+Government ,2014,1743
+Government ,2015,1310
+Journalists & Media,2000,43
+Journalists & Media,2001,44
+Journalists & Media,2002,24
+Journalists & Media,2003,10
+Journalists & Media,2004,25
+Journalists & Media,2005,25
+Journalists & Media,2006,41
+Journalists & Media,2007,43
+Journalists & Media,2008,60
+Journalists & Media,2009,39
+Journalists & Media,2010,54
+Journalists & Media,2011,37
+Journalists & Media,2012,103
+Journalists & Media,2013,183
+Journalists & Media,2014,231
+Journalists & Media,2015,177
+Military,2000,211
+Military,2001,128
+Military,2002,178
+Military,2003,223
+Military,2004,182
+Military,2005,289
+Military,2006,234
+Military,2007,358
+Military,2008,263
+Military,2009,130
+Military,2010,188
+Military,2011,346
+Military,2012,1797
+Military,2013,2331
+Military,2014,3736
+Military,2015,2968
+Police,2000,162
+Police,2001,260
+Police,2002,118
+Police,2003,145
+Police,2004,176
+Police,2005,374
+Police,2006,471
+Police,2007,717
+Police,2008,473
+Police,2009,436
+Police,2010,560
+Police,2011,729
+Police,2012,1705
+Police,2013,2362
+Police,2014,2615
+Police,2015,2124
+Private Citizens & Property,2000,546
+Private Citizens & Property,2001,678
+Private Citizens & Property,2002,399
+Private Citizens & Property,2003,263
+Private Citizens & Property,2004,234
+Private Citizens & Property,2005,444
+Private Citizens & Property,2006,854
+Private Citizens & Property,2007,969
+Private Citizens & Property,2008,1611
+Private Citizens & Property,2009,1671
+Private Citizens & Property,2010,1477
+Private Citizens & Property,2011,1436
+Private Citizens & Property,2012,1704
+Private Citizens & Property,2013,2492
+Private Citizens & Property,2014,4331
+Private Citizens & Property,2015,4182
+Religious Figures/Institutions,2000,99
+Religious Figures/Institutions,2001,46
+Religious Figures/Institutions,2002,42
+Religious Figures/Institutions,2003,31
+Religious Figures/Institutions,2004,47
+Religious Figures/Institutions,2005,89
+Religious Figures/Institutions,2006,94
+Religious Figures/Institutions,2007,89
+Religious Figures/Institutions,2008,112
+Religious Figures/Institutions,2009,147
+Religious Figures/Institutions,2010,125
+Religious Figures/Institutions,2011,136
+Religious Figures/Institutions,2012,252
+Religious Figures/Institutions,2013,412
+Religious Figures/Institutions,2014,429
+Religious Figures/Institutions,2015,404
+Telecommunication,2000,8
+Telecommunication,2001,11
+Telecommunication,2002,7
+Telecommunication,2003,15
+Telecommunication,2004,1
+Telecommunication,2005,11
+Telecommunication,2006,17
+Telecommunication,2007,9
+Telecommunication,2008,66
+Telecommunication,2009,56
+Telecommunication,2010,55
+Telecommunication,2011,46
+Telecommunication,2012,51
+Telecommunication,2013,56
+Telecommunication,2014,48
+Telecommunication,2015,46
+Terrorists/Non-State Militia,2000,10
+Terrorists/Non-State Militia,2001,9
+Terrorists/Non-State Militia,2002,6
+Terrorists/Non-State Militia,2003,8
+Terrorists/Non-State Militia,2004,4
+Terrorists/Non-State Militia,2005,19
+Terrorists/Non-State Militia,2006,20
+Terrorists/Non-State Militia,2007,31
+Terrorists/Non-State Militia,2008,150
+Terrorists/Non-State Militia,2009,88
+Terrorists/Non-State Militia,2010,128
+Terrorists/Non-State Militia,2011,147
+Terrorists/Non-State Militia,2012,188
+Terrorists/Non-State Militia,2013,285
+Terrorists/Non-State Militia,2014,364
+Terrorists/Non-State Militia,2015,320
+Tourists,2000,13
+Tourists,2001,14
+Tourists,2002,9
+Tourists,2003,10
+Tourists,2004,5
+Tourists,2005,11
+Tourists,2006,15
+Tourists,2007,7
+Tourists,2008,13
+Tourists,2009,8
+Tourists,2010,5
+Tourists,2011,2
+Tourists,2012,19
+Tourists,2013,18
+Tourists,2014,6
+Tourists,2015,5
+Transportation,2000,82
+Transportation,2001,95
+Transportation,2002,93
+Transportation,2003,63
+Transportation,2004,51
+Transportation,2005,71
+Transportation,2006,113
+Transportation,2007,142
+Transportation,2008,225
+Transportation,2009,233
+Transportation,2010,219
+Transportation,2011,217
+Transportation,2012,198
+Transportation,2013,242
+Transportation,2014,347
+Transportation,2015,390
+Utilities,2000,22
+Utilities,2001,24
+Utilities,2002,18
+Utilities,2003,47
+Utilities,2004,32
+Utilities,2005,50
+Utilities,2006,72
+Utilities,2007,53
+Utilities,2008,120
+Utilities,2009,137
+Utilities,2010,83
+Utilities,2011,160
+Utilities,2012,161
+Utilities,2013,241
+Utilities,2014,340
+Utilities,2015,258
+Violent Political Party,2000,11
+Violent Political Party,2001,10
+Violent Political Party,2002,2
+Violent Political Party,2003,12
+Violent Political Party,2004,10
+Violent Political Party,2005,9
+Violent Political Party,2006,12
+Violent Political Party,2007,19
+Violent Political Party,2008,38
+Violent Political Party,2009,44
+Violent Political Party,2010,46
+Violent Political Party,2011,25
+Violent Political Party,2012,88
+Violent Political Party,2013,196
+Violent Political Party,2014,138
+Violent Political Party,2015,257
