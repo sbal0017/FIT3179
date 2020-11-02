@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": { "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/AttackDeathsYear.csv"},
+  "transform": [
+    {"calculate": "datum.AttacksDeath == 2 ? 'Deaths' : 'Attacks'", "as": "Legend"}
+  ],
+  "width": {"step": 15},
+  "mark": {
+    "type": "bar",
+    "cursor": "pointer"
+  },
+
+  "encoding": {
+    "column": {
+      "field": "Year", "type": "ordinal", "spacing": 10
+    },
+    "y": {
+      "aggregate": "sum", "field": "Count",
+      "title": "Total Count",
+      "axis": {"grid": false}
+    },
+    "x": {
+      "field": "Legend",
+      "axis": {"title": "", "labels": false}
+        
+    },
+    "color": {
+      "field": "Legend",
+      "scale": {"range": ["#ebaf2f", "#3b3535"]}
+    },
+    "tooltip": [
+      {"field": "Count", "type": "nominal", "title": "Count", "format": ","},
+      {"field": "Year", "type": "quantitative"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {"domainWidth": 1}
+  }
+}
