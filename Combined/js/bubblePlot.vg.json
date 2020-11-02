@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/AttackTypesDeaths.csv"
+  },
+  "width": 600,
+  "height": 400,
+  "transform": [
+  ],
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "axis": {"grid": false, "labelAngle": 0}
+    },
+    "y": {"field": "AttackType", "type": "nominal", "axis": {"title": ""}},
+    "size": {
+      "field": "Deaths",
+      "type": "quantitative",
+      "title": "Annual Global Deaths",
+      "legend": {"clipHeight": 15},
+      "scale": {"rangeMax": 5000}
+    },
+    "color": {"field": "AttackType", "type": "nominal", "legend": null},
+    "tooltip": [
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {"field": "AttackType", "type": "nominal", "title": "Attack Type"},
+      {"field": "Deaths", "type": "quantitative", "title": "Total Deaths", "format": ","}
+
+    ]
+  }
+}
