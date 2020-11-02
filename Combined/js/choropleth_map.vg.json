@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/MapAttacks/data/countofattacksfinal.csv"
+          "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/countofattacksfinal.csv"
         },
         "key": "Country",
         "fields": ["CountofAttacks"]
@@ -34,8 +34,8 @@
       "type": "quantitative",
       "scale": {
       "type": "threshold",
-      "domain": [50, 250, 500, 2500, 5000],
-      "range": ["#ffe1c4", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#4a1700"]
+      "domain": [1, 50, 250, 500, 2500, 5000],
+      "range": ["#E8E0E0", "#ffe1c4", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#4a1700"]
       }
     },
     "tooltip": [
