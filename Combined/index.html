@@ -31,6 +31,9 @@
 <h2>Fifth Visualisation - Dot Map</h2>
 <div id="dotMap"></div>
   
+<h2>Sixth Visualisation - Grouped Bar Chart</h2>
+<div id="groupedBar"></div>
+  
 <script type="text/javascript">
   
   var vis1 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/choropleth_map.vg.json";
@@ -65,6 +68,17 @@
   vegaEmbed('#dotMap', vis5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+  
+  
+  var vis6 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/GroupedBarChart.vg.json";
+  
+  vegaEmbed('#groupedBar', vis6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error); 
+  
+  
+  
+  
   </script>
 
 </body>
