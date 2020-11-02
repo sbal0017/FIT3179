@@ -17,6 +17,6 @@ https://sbal0017.github.io/FIT3179/ScatterPlotPopulationAttacks/
 https://sbal0017.github.io/FIT3179/LineChart/
 
 
-<b>4. Combined</b>
+<b>4. Assignment</b>
 
 https://sbal0017.github.io/FIT3179/Combined/
