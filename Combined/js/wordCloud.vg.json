@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "name": "wordcloud",
+  "width": 800,
+  "height": 400,
+  "padding": 0,
+  "autosize": "none",
+
+  "signals": [
+    {
+      "name": "Word Padding", "value": 1,
+      "bind": {"input": "range", "min": 0, "max": 5, "step": 1}
+    },
+    {
+      "name": "fontSizeRange0", "value": 8
+    },
+    {
+      "name": "fontSizeRange1", "value": 46
+    }
+  ],
+
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        "It was possible the attack was a form of clan-based revenge An attempt to disrupt the local elections on January 3 2000 An attempt to disrupt the local elections on January 3 2000 To sabotage lumbering activity Specific motive is unknown however the Tamils are fighting for an independent homeland Possibly in protest of the arrest of three members of the Revolutionary Cells/Red Zora group Unknown Unknown Unknown Unknown The attack was possibly related to the conflict between Russia and Chechnya Unknown The perpetators wanted the liberation of Kostas Kalaremas and Nikolaos Maziotis To protest the practice of abortion and to sabotage abortion facilities operating in Ohio Unknown Possibly related to an article published in the newspaper on December 31 1999 concerning the assassination of Armenian Prime Minister Vazgen Sarkisyan on October 27 1999 The Allied Democratic Forces (ADF) wanted to inform the government that they had a presence in Kasese  The perpetrators wanted the government and the ICRC to find them new homes To prevent police from breaking up a fight between members of the Yoruba and Hausa ethnic groups Messages against the Spanish Socialist Workers' Party (PSOE) the Popular Party (PP) and the Basque regional government's interior minister Javier Balza were sprayed on the walls Specific motive is unknown but the opposition fighters are seeking the overthrow of Iran's Islamic government Unknown Specific motive is unknown but local authorities believe that the attack was not politically or ethnically motivated Unknown Part of a campaign by Islamic extremists to sabotage Algeria's energy resources which were vital to the country's economy The perpetrator was angry at JCO Co the company that owned the uranium processing plant that had a nuclear accident The attack was believed to be racially motivated he attack was probably gang-related  FARC rebels attacked the Florencia Prison to free FARC prisoners Al-Aqsa Martyrs Brigade claimed responsibility for the attack stating that it was in retaliation for Palestinian deaths that had occurred the day before Part of a GSPC campaign to destabilize Algeria by setting up fake roadblocks to terrorize Algerian citizens The Red Hand Defenders (RHD) said that they killed Stobie for crimes against the loyalist community to disrupt The victims were killed because they were related to a volunteer soldier It was suspected that civilians at the Marando Hotel were targeted due to the likelihood that they would be able to pay high ransoms The assailants accused the victim of having ties with a rival guerrilla group  They stated they were putting him on trial for his crimes and asked for a meeting with the government The incident was in retaliation for the assassination of its leader Mahmoud Abu Hannoud by Israeli troops as well as the killing of five Palestinian boys in an Israeli explosion in the Gaza Strip Part of a GIA campaign to increase the frequency of violent attacks and disrupt during Ramadan A note left by the perpetrators said that the attack was on behalf of Allah to convert all non-believers to Islam ARC rebels murdered the ranch worker to intimidate workers in the region not to work for two ranches in the region The attack was carried out to bring attention to an anti-immigration platform The motive of the attack was to harm foreigners in Afghanistan The perpetrators demanded payment of 260 million in Nigerian dollars to their firm They also demanded compensation for oil spillages that allegedly had occurred in the area Part of a campaign by Algerian Islamic extremists to increase the frequency of violent attacks during Ramadan The specific motive was a revenge killing in retaliation to earlier government action against the group To cripple the telecommunications facilities of Puerto Rico he kiddnapping was an effort to force the Kuwaiti company from continuing to help with the  reconstruction effort in Iraq  Also the kidnappers wanted to force the governments of India Kenya and Egypt to remove all their workers from Iraq In a video the group demanded that the Turkish company withdrawal its services in Iraq or the two hostages would be executed Rebels killed the farmer because he was spying on Maoist activities in the area The Tamil Tiger rebels are bitterly opposed rivals of the Eelam People's Democratic Party The unidentified assailants wanted US forces to pull out of Najaf Part of a campaign by Islamic extremists to destabilize Algeria by weakening security forces protecting the 'apostate' Algerian government The explicit motive was to pressure the Jordanian government to remove its contractors from Iraq Demands included the release of fighters loyal to Abu Musab al-Zarqawi and the withdrawal of US soldiers from the town of Qaim Iraq The group kidnapped the victim in an attempt to bargain the release of their imprisoned leader Part of a campaign by Islamic extremists to destabilize Algeria by weakening security forces protecting the 'apostate' Algerian government Response to the upcoming second round of Presidential Elections Response to the upcoming second round of Presidential Elections The attack was believed aimed at destabilizing the situation in nearby Chechnya Demand more political rights and greater share of profits from the region's natural resources To warn against people who might consider cooperate with the Americans To disrupt Islamic community's cooperation with the government Specific motive is unknown but sources state that the victim had been warned previously by the Liberation Tigers of Tamil Eelam (LTTE) not to service military representatives The assassination of Chieftain Funsho Williams was one of many high-profile murders of political candidates of south-west origin beginning in 2002 Murders are suggestive of political motives because the victims were leading politicians of their parties To send message to President George W Bush Part of a campaign by Algerian Islamic extremists to increase the frequency of violent attacks during Ramadan To disrupt Sunni Shi i reconciliation To attack French crusaders The civilians were targeted for allegedly being police informers The specific motive for the attack was the perpetrator's belief that the elder was spying for government intelligence agencies and therein undermining Balochi interests The motive for the attack was the assailants' belief that the victims were spying for North Atlantic Treaty  organization forces The specific motive for the attack is unknown and to destabilize The specific motive for the attack is unknown The National Liberation Army of Colombia (ELN) claimed responsibility for the incident and demanded an extortion The Islamic State of Iraq and the Levant (ISIL) claimed responsibility for the incident and stated that Nahla Yunis Al Badrani a government official was targeted because she supported the Iraqi government The specific motive for the attack is unknown The specific motive for the attack is unknown The specific motive for the attack was to intimidate the government The specific motive for the attack was retalioation for United States raid into Somalia The specific motive for the attack was to send a message to the authorities to release four members that had been  arrested a few days earlier The specific motive for the attack was the result of a land dispute The specific motive for the attack is unknown The police suspect that the attack was an attempt to destroy the infrastructure which would likely be used by police security forces during anti-Maoist operations in the region A pamphlet left behind at the scene stated that the attack was the consequence for the killing of Maoist leader ‘Azad’ The attack was carried out by extremists to protest the extension of the CA tenure growing unemployment and to press the government to form a national consensus government The specific motive for the attack is punishment for allegedly spying for military forces The attack was carried out to force the release of two of their cadres The specific motive for the attack is unknown however the victim was on patrol at a polling center The attack was carried out because the victim was accused of being a spy for the United States The specific motive for the attack is unknown however the attack followed threats by militants groups and Al Qaeda to avenge Bin Laden’s death Posters left by Maoists at the scene of the attack urged a general strike to protest police atrocities and anti-Maoist activities and demanded an end to Operation Green Hunt Telangana Separatists claimed responsibility for the incident and stated that they were attempting to attract media attention to the cause of a free and independent Telangana state Ansar al-Sharia a subgroup of Al-Qa'ida in the Arabian Peninsula (AQAP) claimed responsibility for the attack stating that the bombing was carried out in revenge for the United States-backed war on the organization in southern Yemen The specific motive is unknown however sources speculate that the incident may have been related to recent clashes between Filipino government forces and the Bangsamoro Islamic Freedom Movement (BIFM) The specific motive is unknown however sources note that the incident coincided with the funeral of Lee Rigby a British soldier who was killed by suspected Islamist extremists in May 2013 The Abdullah Azzam Brigades claimed responsibility for the incident stating that they targeted Hezbollah's convoy because of the Shiite group's intervention in the ongoing conflict in neighboring Syria The specific motive is unknown however sources posited that the abduction was carried out in response to the arrest of prominent Libyan militia leader Shaaban Hadeia in Egypt and was used as a bargaining tool to release Hadeia The specific motive is unknown however sources speculated that the incident was related to an argument over the use of the word Allah so revenge The assailant claimed responsibility for the incident citing a deeply held grudge against the Kita police station for its mistreatment of people and its mishandling of cases revenge The specific motive is unknown however sources speculated that the attack was carried out for an extortion Sources also speculated that the attack may have been in response to the victim's activities as an urban planner The specific motive is unknown however sources noted that the attack may have been part of a larger trend of violence related to Bangladesh's nationwide hartal which began on January 6 2015 The specific motive is unknown however sources noted that the victim Angiza Shinwari was an outspoken women's rights defender The Islamic extremists Front (Syria) claimed responsibility for the incident and stated that the attack was carried out in retaliation for recent airstrikes The Taliban extremists claimed responsibility for the incident and stated that the soldier was targeted for killing a member of the Taliban The National Liberation Army of Colombia (ELN) claimed responsibility for the incident and demanded an extortion"
+      ],
+      "transform": [
+        {
+          "type": "countpattern",
+          "field": "data",
+          "case": "upper",
+          "pattern": "[\\w']{3,}",
+          "stopwords": "(i|me|my|myself|we|us|our|ours|ourselves|you|your|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|whose|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|will|would|should|can|could|ought|i'm|you're|he's|she's|it's|we're|they're|i've|you've|we've|they've|i'd|you'd|he'd|she'd|we'd|they'd|i'll|you'll|he'll|she'll|we'll|they'll|isn't|aren't|wasn't|weren't|hasn't|haven't|hadn't|doesn't|don't|didn't|won't|wouldn't|shan't|shouldn't|can't|cannot|couldn't|mustn't|let's|that's|who's|what's|here's|there's|when's|where's|why's|how's|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|upon|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|such|no|nor|not|only|own|same|so|than|too|very|say|says|said|shall|specific|tamil|2015|may|psoe|arc|rico|however|sources|stated|due|gia|abu|zora|azad|october|three|used|1999|shi|2002|260|2013|jco|eln|adf|january|2000|day|)"
+        },
+        {
+          "type": "formula", "as": "weight",
+          "expr": "if(datum.text=='VEGA', 600, 300)"
+        },
+        {
+          "type": "wordcloud",
+          "size": [{"signal": "width"}, {"signal": "height"}],
+          "text": {"field": "text"},
+          "font": "Helvetica Neue, Arial",
+          "fontSize": {"field": "count"},
+          "fontWeight": {"field": "weight"},
+          "fontSizeRange": [{"signal": "fontSizeRange0"}, {"signal": "fontSizeRange1"}],
+          "padding": {"signal": "Word Padding"},
+          "rotate": {"field": "rotate"}
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "range": ["#5a7ba1", "#c24823", "#45413b"]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"field": "text"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "text"},
+          "font": {"value": "Helvetica Neue, Arial"},
+          "fontWeight": {"field": "weight"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "angle": {"field": "angle"},
+          "fontSize": {"field": "fontSize"},
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      }
+    }
+  ]
+}
