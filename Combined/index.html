@@ -47,8 +47,12 @@
   }).catch(console.error);
  
 
+  var vis4 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/wordCloud.vg.json";
   
-</script>
+  vegaEmbed('#wordCloud', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  </script>
 
 </body>
 </html>
