@@ -72,7 +72,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <script type="text/javascript">
           var vis1 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/choropleth_map.vg.json";
   
-          vegaEmbed('#choropleth_map', vis1).then(function(result) {
+          vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
           }).catch(console.error);
         
