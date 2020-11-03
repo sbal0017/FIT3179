@@ -5,7 +5,7 @@
   "transform": [
     {"calculate": "datum.AttacksDeath == 2 ? 'Deaths' : 'Attacks'", "as": "Legend"}
   ],
-  "width": {"step": 15},
+  "width": {"step": 13},
   "mark": {
     "type": "bar",
     "cursor": "pointer"
