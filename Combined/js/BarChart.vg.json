@@ -1,0 +1,48 @@
+{  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "height": 350,
+  "width": 600,
+  "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/GroupNames.csv"  },
+  "encoding": {
+    "y": {"field": "Group", "type": "nominal"},
+    "x": {"field": "Total Attacks", "type": "quantitative", "scale": {"padding": 10}},
+      "fillOpacity": {
+      "condition": {"selection": "select", "value": 1},
+      "value": 0.3
+    },
+    "tooltip": [
+        {"field": "Group", "title": "Group Name"},
+        {"field": "Total Attacks", "format": ","}
+      ],
+    "strokeWidth": {
+      "condition": [
+        {
+          "test": {
+            "and": [
+              {"selection": "select"},
+              "length(data(\"select_store\"))"
+            ]
+          },
+          "value": 2
+        },
+        {"selection": "highlight", "value": 1}
+      ],
+      "value": 0
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.3
+    }
+  },
+  "selection": {
+    "highlight": {"type": "single", "empty": "none", "on": "mouseover"},
+    "select": {"type": "multi"}
+  },
+  "mark": {
+    "type": "bar",
+    "fill": "#cf5736",
+    "stroke": "black",
+    "cursor": "pointer"
+  }
+
+}
