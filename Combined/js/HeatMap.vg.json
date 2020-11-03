@@ -5,7 +5,7 @@
   "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/WeaponType.csv"},
   "mark": "rect",
   "encoding": {
-    "y": {"field": "WeaponType", "type": "nominal", "title":"Weapon Type"},
+    "y": {"field": "WeaponType", "type": "nominal", "title":"Weapon Type", "axis":{"titleAngle": 0}},
     "x": {"field": "Country", "type": "nominal", "axis":{"labelAngle": 0}},
     "color": {
       "aggregate": "mean",     
