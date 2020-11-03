@@ -107,11 +107,119 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
 
   </div>
+  
+  
+  <!-- Third Grid -->  
+
+<div class="w3-row w3-border w3-padding-large w3-padding-32 w3-white">
+  <div class="w3-container w3-half w3-padding-64 w3-right-align w3-padding-right">
+    <h1 class="w3-padding 64">Terrorist Attacks around the World<h1><h5 class="w3-padding 64  w3-padding-large"><i> from 2000 - 2015</i></h5>
+	<br>
+      <p class="w3-text-grey w3-padding 64">Terrorism is a problem all around the world. To the right, you can see the count of Terrorism based attacks per country and how certain regions
+        are far worse effected than others.<br><br>The data is not normalised as Terrorism isn't based on a population, rather a will to provoke and attack certain groups of people, inciting
+      fear.</p>
+    </div>
+  
+  <div class="w3-container w3-half w3-padding-large w3-padding-32">
+      <div id="lineChart"></div>
+      <script type="text/javascript">
+          var vis3 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/LineChart.vg.json";
+  
+          vegaEmbed('#lineChart', vis3, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        
+      </script>
+    </div>
+  </div>
+</div>
+  
+  
+<!-- Fourth Grid -->
+
+<div class="w3-row w3-border w3-padding-large w3-padding-32 w3-light-gray">
+
+  <div class="w3-container w3-half w3-right-align w3-padding-32">
+      <div id="scatterPlot"></div>
+      <script type="text/javascript">
+          var vis4 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/scatterPlotPopulation.vg.json";
+  
+          vegaEmbed('#scatterPlot', vis4, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        
+      </script>
+    </div>
+	
+  <div class="w3-container w3-half w3-padding-64 w3-left-align w3-padding-left w3-padding-top">
+    <h1 class="w3-padding 64">Terrorist Attacks around the World<h1><h5 class="w3-padding 64  w3-padding-large w3-padding-top"><i> from 2000 - 2015</i></h5>
+	<br>
+      <p class="w3-text-grey w3-padding 64">Terrorism is a problem all around the world. To the right, you can see the count of Terrorism based attacks per country and how certain regions
+        are far worse effected than others.<br><br>The data is not normalised as Terrorism isn't based on a population, rather a will to provoke and attack certain groups of people, inciting
+      fear.</p>
+    </div>
+  
+
+  </div>
+  
+  
+  <!-- Fifth Grid -->  
+
+<div class="w3-row w3-border w3-padding-large w3-padding-32 w3-white">
+  <div class="w3-container w3-half w3-padding-64 w3-right-align w3-padding-right">
+    <h1 class="w3-padding 64">Terrorist Attacks around the World<h1><h5 class="w3-padding 64  w3-padding-large"><i> from 2000 - 2015</i></h5>
+	<br>
+      <p class="w3-text-grey w3-padding 64">Terrorism is a problem all around the world. To the right, you can see the count of Terrorism based attacks per country and how certain regions
+        are far worse effected than others.<br><br>The data is not normalised as Terrorism isn't based on a population, rather a will to provoke and attack certain groups of people, inciting
+      fear.</p>
+    </div>
+  
+  <div class="w3-container w3-half w3-padding-large w3-padding-32">
+      <div id="dotMap"></div>
+      <script type="text/javascript">
+          var vis5 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/dotMap.vg.json";
+  
+          vegaEmbed('#dotMap', vis5, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        
+      </script>
+    </div>
+  </div>
+</div>
+  
+<!-- Sixth Grid -->
+
+<div class="w3-row w3-border w3-padding-large w3-padding-32 w3-light-gray">
+
+  <div class="w3-container w3-half w3-right-align w3-padding-32">
+      <div id="heatMap"></div>
+      <script type="text/javascript">
+          var vis6 = "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/js/HeatMap.vg.json";
+  
+          vegaEmbed('#heatMap', vis6, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        
+      </script>
+    </div>
+	
+  <div class="w3-container w3-half w3-padding-64 w3-left-align w3-padding-left w3-padding-top">
+    <h1 class="w3-padding 64">Terrorist Attacks around the World<h1><h5 class="w3-padding 64  w3-padding-large w3-padding-top"><i> from 2000 - 2015</i></h5>
+	<br>
+      <p class="w3-text-grey w3-padding 64">Terrorism is a problem all around the world. To the right, you can see the count of Terrorism based attacks per country and how certain regions
+        are far worse effected than others.<br><br>The data is not normalised as Terrorism isn't based on a population, rather a will to provoke and attack certain groups of people, inciting
+      fear.</p>
+    </div>
+  
+
+  </div>
+  
 </div>
 
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-sand">  
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
