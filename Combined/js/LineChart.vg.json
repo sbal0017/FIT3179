@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Total Deaths from Terrorism (2000-2015)",
+  "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/ContinentDeath.csv"},
+  "width": 600,
+  "height": 300,
+  "encoding": {"x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 0}}},
+  "layer": [
+    {
+      "encoding": {
+        "color": {"field": "Continent", "type": "nominal"},
+        "y": {"field": "Deaths",
+         "type": "quantitative"}
+      },
+      "layer": [
+        {"mark": "line"},
+        {"transform": [{"filter": {"selection": "hover"}}], "mark": "point"}
+      ]
+    },
+    {
+      "transform": [{"pivot": "Continent", "value": "Deaths", "groupby": ["Year"]}],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Africa", "type": "quantitative"},
+          {"field": "Asia", "type": "quantitative"},
+          {"field": "Europe", "type": "quantitative"},
+          {"field": "North America", "type": "quantitative"},
+          {"field": "Oceania", "type": "quantitative"},
+          {"field": "South America", "type": "quantitative"}    
+        ]
+      },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["Year"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ]
+}
