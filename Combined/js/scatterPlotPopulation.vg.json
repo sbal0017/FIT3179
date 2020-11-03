@@ -115,8 +115,8 @@
         },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
-          {"field": "CountofAttacks", "type": "quantitative", "format": ","},
-          {"field": "TotalDeaths", "type": "quantitative", "format": ","},
+          {"field": "CountofAttacks", "type": "quantitative", "format": ",", "title": "Count of Attacks"},
+          {"field": "TotalDeaths", "type": "quantitative", "format": ",", "title": "Count of Deaths"},
           {"field": "Continent", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","}
 
