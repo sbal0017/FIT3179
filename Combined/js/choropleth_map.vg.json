@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Terrorism around the World (2000 - 2015)",
   "width": 800,
   "height": 500,
   "data": {
