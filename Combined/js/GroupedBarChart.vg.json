@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "height": 300,
   "data": { "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/AttackDeathsYear.csv"},
   "transform": [
     {"calculate": "datum.AttacksDeath == 2 ? 'Deaths' : 'Attacks'", "as": "Legend"}
