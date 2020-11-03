@@ -92,12 +92,12 @@
           "type": "nominal",
           "scale": {
             "domain": [
-              "North America",
-              "South America",
-              "Europe",
               "Africa",
               "Asia",
-              "Oceania"
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America"
             ],
             "range": [
               "#E69F00",
