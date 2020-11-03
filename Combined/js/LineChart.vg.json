@@ -4,7 +4,7 @@
   "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/ContinentDeath.csv"},
   "width": 600,
   "height": 300,
-  "encoding": {"x": {"field": "Year", "type": "temporal", "axis": {"tickCount": 0}}},
+  "encoding": {"x": {"field": "Year", "type": "ordinal", "axis": {"tickCount": 0, "labelAngle":0}}},
   "layer": [
     {
       "encoding": {
