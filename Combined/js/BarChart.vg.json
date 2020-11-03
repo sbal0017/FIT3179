@@ -3,7 +3,7 @@
   "width": 600,
   "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/GroupNames.csv"  },
   "encoding": {
-    "y": {"field": "Group", "type": "nominal"},
+    "y": {"field": "Group", "type": "nominal", "title": "Terrorist Group"},
     "x": {"field": "Total Attacks", "type": "quantitative", "scale": {"padding": 10}},
       "fillOpacity": {
       "condition": {"selection": "select", "value": 1},
