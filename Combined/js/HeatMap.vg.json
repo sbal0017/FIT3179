@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 600,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/Combined/data/WeaponType.csv"},
+  "mark": "rect",
+  "encoding": {
+    "y": {"field": "WeaponType", "type": "nominal", "title":"Weapon Type"},
+    "x": {"field": "Country", "type": "nominal", "axis":{"labelAngle": 0}},
+    "color": {
+      "aggregate": "mean",     
+      "field": "TotalAttacks", "title":"Total Attacks",
+      "type": "quantitative",
+      "scale": {
+      "type": "threshold",
+      "domain": [1, 50, 250, 2500, 5000, 10000],
+      "range": ["#E8E0E0", "#ffe1c4", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#4a1700"]
+      }
+      
+      
+      
+      
+      },
+    "tooltip": [
+      {"field": "TotalAttacks", "type": "quantitative", "title": "Total Attacks", "format":","},
+      {"field": "WeaponType", "type": "nominal", "title": "Weapon Type"},
+      {"field": "Country", "type": "nominal"}
+    ]
+  },
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent"}
+  }
+}
