@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 600,
   "height": 500,
-  "title": "Total Terrorist Attacks and Deaths (2000-2015)",
   "data": {
     "url": "https://raw.githubusercontent.com/sbal0017/FIT3179/main/ScatterPlotPopulationAttacks/data/globalpopulation.csv"
   },
@@ -63,7 +62,7 @@
       "field": "TotalDeaths",
       "type": "quantitative",
       "title": "Total Deaths",
-      "axis": {"tickCount": 5},
+      "axis": {"tickCount": 5, "titleAngle": 0},
       "scale": {"type": "log", "domain": [1, 100000]}
     }
   },
